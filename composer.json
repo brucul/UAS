@@ -1,0 +1,11 @@
+{
+    "name": "afriza/mahasiswa",
+    "authors" :[
+        {
+            "name": "Afriza",
+            "email": "afrizaf3@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    }
