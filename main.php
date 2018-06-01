@@ -29,7 +29,7 @@ width:200px;
 <h1>Aplikasi Data Mahsiswa</h1>
 <hr>
 
-<a href="tambah.php"><img title="Tambah Data" src="../img/tambah.png"/></a>
+<a href="tambah.php"><img title="Tambah Data" src="../uas/tambah.png"/></a>
 <br></br>
 
 <?php
@@ -65,8 +65,8 @@ width:200px;
 				echo "<td>".$row["nim"]."</td>";
 				echo "<td>".$row["nama"]."</td>";
 				echo "<td>".$row["jurusan"]."</td>";
-				echo '<td><a href="edit.php?nim='. $row["nim"] .'"><img title="Edit Data" src="../img/edit.png"/></a>
-						<a href="hapus.php?nim='. $row["nim"] .'"><img title="Delete Data" src="../img/hapus.png"/></a>';
+				echo '<td><a href="edit.php?nim='. $row["nim"] .'"><img title="Edit Data" src="../uas/edit.png"/></a>
+					<a href="hapus.php?nim='. $row["nim"] .'"><img title="Delete Data" src="../uas/hapus.png"/></a>';
 				//echo '<td><a href="hapus.php?nim='. $row["nim"] .'">Hapus</a>';
 				echo "<tr>";
 			}
