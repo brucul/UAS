@@ -17,3 +17,6 @@ script:
     - "curl -T simpan.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
     - "curl -T tambah.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
     - "curl -T update.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+    - "curl -T tambah.png -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+    - "curl -T edit.png -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+    - "curl -T hapus.png -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
